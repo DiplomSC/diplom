@@ -1,0 +1,37 @@
+{
+    "name": "ТехноЛікар",
+    "short_name": "ТехноЛікар",
+    "description": "Професійний сервісний центр",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#2563eb",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/icons/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icons/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Відстежити замовлення",
+            "url": "/track",
+            "description": "Дізнатися поточний статус замовлення"
+        },
+        {
+            "name": "Нове замовлення",
+            "url": "/repair/new",
+            "description": "Створити запит на ремонт"
+        }
+    ],
+    "categories": ["utilities", "productivity"]
+}
